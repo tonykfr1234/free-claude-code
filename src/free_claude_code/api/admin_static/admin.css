@@ -183,6 +183,8 @@ textarea {
   color: var(--text-strong);
 }
 
+.nav-link { min-height: 44px; }
+
 .nav-link.active {
   background: var(--accent-muted);
   border-color: var(--accent-border);
@@ -281,7 +283,7 @@ textarea:focus-visible,
 .integration-card > button,
 .integration-actions > button,
 .provider-card > .provider-actions > button {
-  min-height: 38px;
+  min-height: 44px;
   padding: 6px 14px;
   font-size: 13px;
 }
@@ -388,12 +390,15 @@ button.startup-busy::before,
 }
 
 .provider-title strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
   font-size: 14px;
   font-weight: 700;
   color: var(--text-strong);
 }
 
 .provider-title a {
+  min-width: 0;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -452,7 +457,8 @@ button.startup-busy::before,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 36px;
+  min-height: 44px;
+  min-width: 44px;
   border-radius: var(--radius-md);
   border: 1px solid var(--line-strong);
   padding: 6px 14px;
@@ -593,7 +599,7 @@ button.startup-busy::before,
 .field select,
 .field textarea {
   width: 100%;
-  min-height: 40px;
+  min-height: 44px;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-md);
   background: var(--input);
@@ -815,7 +821,7 @@ button.startup-busy::before,
   left: 260px;
   z-index: 100;
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(200px, 1fr) auto;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto;
   gap: 20px;
   align-items: center;
   min-height: 80px;
@@ -854,6 +860,7 @@ button.startup-busy::before,
 
 .message-area {
   min-width: 0;
+  overflow-wrap: anywhere;
   color: var(--muted);
   font-size: 13px;
   font-weight: 500;
@@ -941,9 +948,9 @@ button.startup-busy::before,
 /* Mobile Layout Optimization */
 @media (max-width: 600px) {
   .brand {
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: row;
   }
   
   .brand-mark {
@@ -952,7 +959,7 @@ button.startup-busy::before,
   }
 
   .section-nav {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   
   .topbar {
@@ -1001,4 +1008,9 @@ button.startup-busy, .startup-spinner { display: inline-flex; align-items: cente
 .startup-spinner[hidden] { display: none; }
 @media (prefers-reduced-motion: reduce) {
   button.startup-busy::before, .startup-spinner::before { animation: none; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,0 +1,600 @@
+{
+  "phase": "after",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "providers-360",
+      "actual": {
+        "sidebar": 253,
+        "buttonHeight": 44,
+        "inputHeight": 44,
+        "width": 360,
+        "scroll": 360,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "error-dialog-360",
+      "actual": {
+        "client": 320,
+        "scroll": 320,
+        "height": 389.921875,
+        "viewport": 800,
+        "value": "synthetic-value"
+      },
+      "pass": true
+    },
+    {
+      "name": "modal-background-isolation-360",
+      "actual": {
+        "focusTargets": [
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog",
+          "saveProvider",
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY"
+        ],
+        "backgroundBlocked": true
+      },
+      "pass": true
+    },
+    {
+      "name": "focus-return-360",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "providers-412",
+      "actual": {
+        "sidebar": 253,
+        "buttonHeight": 44,
+        "inputHeight": 44,
+        "width": 412,
+        "scroll": 412,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "error-dialog-412",
+      "actual": {
+        "client": 372,
+        "scroll": 372,
+        "height": 371.734375,
+        "viewport": 915,
+        "value": "synthetic-value"
+      },
+      "pass": true
+    },
+    {
+      "name": "modal-background-isolation-412",
+      "actual": {
+        "focusTargets": [
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog",
+          "saveProvider",
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY"
+        ],
+        "backgroundBlocked": true
+      },
+      "pass": true
+    },
+    {
+      "name": "focus-return-412",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "providers-440",
+      "actual": {
+        "sidebar": 253,
+        "buttonHeight": 44,
+        "inputHeight": 44,
+        "width": 440,
+        "scroll": 440,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "error-dialog-440",
+      "actual": {
+        "client": 400,
+        "scroll": 400,
+        "height": 353.546875,
+        "viewport": 956,
+        "value": "synthetic-value"
+      },
+      "pass": true
+    },
+    {
+      "name": "modal-background-isolation-440",
+      "actual": {
+        "focusTargets": [
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog",
+          "saveProvider",
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog"
+        ],
+        "backgroundBlocked": true
+      },
+      "pass": true
+    },
+    {
+      "name": "focus-return-440",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "providers-1440",
+      "actual": {
+        "sidebar": 900,
+        "buttonHeight": 44,
+        "inputHeight": 44,
+        "width": 1440,
+        "scroll": 1440,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "error-dialog-1440",
+      "actual": {
+        "client": 598,
+        "scroll": 598,
+        "height": 335.359375,
+        "viewport": 900,
+        "value": "synthetic-value"
+      },
+      "pass": true
+    },
+    {
+      "name": "modal-background-isolation-1440",
+      "actual": {
+        "focusTargets": [
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog",
+          "saveProvider",
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY"
+        ],
+        "backgroundBlocked": true
+      },
+      "pass": true
+    },
+    {
+      "name": "focus-return-1440",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "providers-844",
+      "actual": {
+        "sidebar": 145,
+        "buttonHeight": 44,
+        "inputHeight": 44,
+        "width": 844,
+        "scroll": 844,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "error-dialog-844",
+      "actual": {
+        "client": 598,
+        "scroll": 598,
+        "height": 335.359375,
+        "viewport": 390,
+        "value": "synthetic-value"
+      },
+      "pass": true
+    },
+    {
+      "name": "modal-background-isolation-844",
+      "actual": {
+        "focusTargets": [
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY",
+          "cancelProviderDialog",
+          "saveProvider",
+          "BODY",
+          "closeProviderDialog",
+          "field-FIXTURE_KEY"
+        ],
+        "backgroundBlocked": true
+      },
+      "pass": true
+    },
+    {
+      "name": "focus-return-844",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "long-name-360",
+      "actual": {
+        "width": 360,
+        "scroll": 360,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "loading-live-status",
+      "actual": "status",
+      "pass": true
+    },
+    {
+      "name": "load-error-text",
+      "actual": "Synthetic config unavailable. Retry after checking the local service.",
+      "pass": true
+    },
+    {
+      "name": "empty-custom",
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "contrast-muted-text",
+      "actual": {
+        "ratio": 7.295683985396414,
+        "colors": [
+          "#9ca3af",
+          "#11131c"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "name": "contrast-error-text",
+      "actual": {
+        "ratio": 4.922124548183799,
+        "colors": [
+          "#ef4444",
+          "#11131c"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "name": "contrast-focus-accent",
+      "actual": {
+        "ratio": 7.3019660049247355,
+        "colors": [
+          "#10b981",
+          "#11131c"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "name": "contrast-primary-text",
+      "actual": {
+        "ratio": 7.618174598110324,
+        "colors": [
+          "rgb(6, 16, 11)",
+          "rgb(16, 185, 129)"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "name": "keyboard-focus",
+      "actual": {
+        "tag": "A",
+        "outline": "solid",
+        "width": "2px"
+      },
+      "pass": true
+    },
+    {
+      "name": "reduced-motion-transition",
+      "actual": "0s",
+      "pass": true
+    },
+    {
+      "name": "integrations-error-360",
+      "actual": {
+        "width": 360,
+        "scroll": 360,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "reduced-motion-scroll",
+      "actual": [
+        "auto"
+      ],
+      "pass": true
+    },
+    {
+      "name": "zoom200-dark",
+      "actual": {
+        "width": 1440,
+        "scroll": 1440,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "zoom200-dirty-status-dark",
+      "actual": {
+        "text": "No changes",
+        "client": 131,
+        "scroll": 131
+      },
+      "pass": true
+    },
+    {
+      "name": "zoom200-light",
+      "actual": {
+        "width": 1440,
+        "scroll": 1440,
+        "overflowing": []
+      },
+      "pass": true
+    },
+    {
+      "name": "zoom200-dirty-status-light",
+      "actual": {
+        "text": "No changes",
+        "client": 131,
+        "scroll": 131
+      },
+      "pass": true
+    }
+  ],
+  "browserErrors": [],
+  "blockedExternal": [],
+  "requests": [
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config/apply",
+      "method": "POST",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config/apply",
+      "method": "POST",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config/apply",
+      "method": "POST",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config/apply",
+      "method": "POST",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config/apply",
+      "method": "POST",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "long"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "long"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "long"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "loading"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "loading"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "loading"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "load-error"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/claude-vscode",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/claude-onboarding",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/vscode-chat",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/jetbrains-acp",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/codex",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/claude-desktop",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/integrations/dsh-desktop",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/config",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/status",
+      "method": "GET",
+      "scenario": "normal"
+    },
+    {
+      "path": "/admin/api/models",
+      "method": "GET",
+      "scenario": "normal"
+    }
+  ],
+  "browser": "156.0.8078.73"
+}
