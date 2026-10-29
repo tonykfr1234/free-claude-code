@@ -541,6 +541,10 @@ fcc-doctor
 - [Report bugs or request features](https://github.com/Alishahryar1/free-claude-code/issues)
 - [Contributing guide](CONTRIBUTING.md)
 
+## Local Admin UI review
+
+See the [2026-10-29 UI review](docs/ui-ux-20261029/README.md) for measured changes, locally retained before/after evidence, isolated fixture checks, environment limitations and recovery steps.
+
 ## License
 
 GNU Affero General Public License version 3 only (`AGPL-3.0-only`). See [LICENSE](LICENSE) for details.
